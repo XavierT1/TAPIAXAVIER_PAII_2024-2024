@@ -5,7 +5,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/OpenGL">
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/OpenGL">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
