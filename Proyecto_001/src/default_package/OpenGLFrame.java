@@ -11,6 +11,11 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+/**
+ * @author XavierTapia
+ * Title: OpenGL Contenedores
+ */
+
 public class OpenGLFrame extends JFrame {
 
     private static final long serialVersionUID = 1L;
@@ -108,7 +113,7 @@ class DrawingPanel extends JPanel {
         g.setColor(Color.WHITE);
         g.fillRect(0, 0, width, height);
         g.setColor(Color.BLACK);
-        g.drawString("Haz clic en un botón para dibujar una forma", 20, 20);
+        g.drawString("Haz clic en un botón para dibujar una forma", 170, 20);
 
         if (type.equals("Triangulo")) {
         	drawTrianhulo(g, width, height);
