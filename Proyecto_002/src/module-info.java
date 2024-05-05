@@ -4,6 +4,6 @@
 /**
  * 
  */
-module Proyecto_002 {
+module EstructuraGalaga {
 	requires java.desktop;
 }
