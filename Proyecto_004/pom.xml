@@ -42,14 +42,7 @@
 			<version>2.3.2</version>
 		</dependency>
 		
-			<dependency>
-				<groupId>javax.swing</groupId>
-				<artifactId>javax.swing-api</artifactId>
-				<version>1.0</version>
-			</dependency>
-		</dependencies>
-
-
+	</dependencies>
 	<build>
 		<pluginManagement>
 			<!--  lock down plugins versions to avoid using Maven defaults (may
