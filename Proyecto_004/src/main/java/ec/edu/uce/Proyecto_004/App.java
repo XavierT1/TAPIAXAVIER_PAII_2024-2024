@@ -9,6 +9,7 @@ import models.Student;
 public class App 
 {
     public static void main( String[] args )
+    
     {
     	Configuration configuration = new Configuration();
         configuration.configure("hibernate.cfg.xml");
