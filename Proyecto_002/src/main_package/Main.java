@@ -10,6 +10,7 @@ public class Main {
 
 	}
 
+	
 	private void run() {
 		try {
 			GameFrame game = new GameFrame("Galaga Game");

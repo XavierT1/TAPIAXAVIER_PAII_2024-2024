@@ -10,6 +10,7 @@ public class Principal {
 		int suma = a + b;
 		System.out.println("suma es: " + suma);
 		
+		
 		//inversion de control 
 		
 		JFrame frame = new JFrame("Mi primer frame");
