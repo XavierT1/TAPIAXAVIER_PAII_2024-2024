@@ -9,7 +9,6 @@ public class Main {
 		m1.run();
 
 	}
-
 	private void run() {
 		try {
 			GameFrame game = new GameFrame("Galaga Game");
