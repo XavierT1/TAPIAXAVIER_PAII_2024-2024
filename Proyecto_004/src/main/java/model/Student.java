@@ -1,35 +1,39 @@
-package models;
+package model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
 @Entity
-@Table(name="student")
+@Table(name = "student")
+
 public class Student {
-	
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	
-	@Column(name="name")
+
+	@Column(name = "name")
 	private String name;
 
-	@Column(name="lastname")
-	private String lastname;
+	@Column(name = "lastName")
+	private String lastName;
 
-	@Column(name="age")
+	@Column(name = "age")
 	private int age;
-	
+
 	public Student() {
-		
+
 	}
 
-	public Student(int id, String name, String lastname, int age) {
+	public Student(int id, String name, String lastName, int age) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.lastname = lastname;
+		this.lastName = lastName;
 		this.age = age;
 	}
 
@@ -49,12 +53,12 @@ public class Student {
 		this.name = name;
 	}
 
-	public String getLastname() {
-		return lastname;
+	public String getLastName() {
+		return lastName;
 	}
 
-	public void setLastname(String lastname) {
-		this.lastname = lastname;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 
 	public int getAge() {
@@ -64,4 +68,5 @@ public class Student {
 	public void setAge(int age) {
 		this.age = age;
 	}
+
 }
