@@ -10,39 +10,45 @@
         <property name="age" value="25"/>
     </bean>
 
-    <bean id="calificacion1" class="ec.uce.edu.clases.Calificacion">
-        <property name="estudiante" value="Juan" />
-        <property name="curso" value="curso1" />
-        <property name="nota" value="9.5" />
+    <bean id="persona2" class="ec.uce.edu.clases.Persona">
+        <property name="id" value="2"/>
+        <property name="name" value="Juan"/>
+        <property name="lastname" value="Lopez"/>
+        <property name="age" value="16"/>
     </bean>
+<!--    <bean id="calificacion1" class="ec.uce.edu.clases.Calificacion">-->
+<!--        <property name="estudiante" value="Juan" />-->
+<!--        <property name="curso" value="curso1" />-->
+<!--        <property name="nota" value="9.5" />-->
+<!--    </bean>-->
 
 
-    <bean id="curso1" class="ec.uce.edu.clases.Curso">
-            <property name="nombre" value="Programación Avanzada" />
-            <property name="creditos" value="4" />
-            <property name="departamento" value="Informática" />
-    </bean>
+<!--    <bean id="curso1" class="ec.uce.edu.clases.Curso">-->
+<!--            <property name="nombre" value="Programación Avanzada" />-->
+<!--            <property name="creditos" value="4" />-->
+<!--            <property name="departamento" value="Informática" />-->
+<!--    </bean>-->
 
-    <bean id="estudiante1" class="ec.uce.edu.clases.Estudiante">
-        <property name="id" value="1" />
-        <property name="nombre" value="Juan" />
-        <property name="apellido" value="López" />
-        <property name="edad" value="22" />
-    </bean>
-
-
-    <bean id="materia1" class="ec.uce.edu.clases.Materia">
-        <property name="nombre" value="Matemáticas Discretas" />
-        <property name="codigo" value="MAT001" />
-        <property name="creditos" value="3" />
-    </bean>
+<!--    <bean id="estudiante1" class="ec.uce.edu.clases.Estudiante">-->
+<!--        <property name="id" value="1" />-->
+<!--        <property name="nombre" value="Juan" />-->
+<!--        <property name="apellido" value="López" />-->
+<!--        <property name="edad" value="22" />-->
+<!--    </bean>-->
 
 
-    <bean id="profesor1" class="ec.uce.edu.clases.Profesor">
-        <property name="id" value="101" />
-        <property name="nombre" value="María" />
-        <property name="apellido" value="Gómez" />
-        <property name="especialidad" value="Álgebra Lineal" />
-    </bean>
+<!--    <bean id="materia1" class="ec.uce.edu.clases.Materia">-->
+<!--        <property name="nombre" value="Matemáticas Discretas" />-->
+<!--        <property name="codigo" value="MAT001" />-->
+<!--        <property name="creditos" value="3" />-->
+<!--    </bean>-->
+
+
+<!--    <bean id="profesor1" class="ec.uce.edu.clases.Profesor">-->
+<!--        <property name="id" value="101" />-->
+<!--        <property name="nombre" value="María" />-->
+<!--        <property name="apellido" value="Gómez" />-->
+<!--        <property name="especialidad" value="Álgebra Lineal" />-->
+<!--    </bean>-->
 
 </beans>
