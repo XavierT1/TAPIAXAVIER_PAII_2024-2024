@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Persona1" class="ec.edu.uce.ProyectoBeans.clases.Persona">
+        <property name="id" value="1" />
+        <property name="name" value="Pepe"/>
+        <property name="lastname" value="Perez"/>
+        <property name="age" value="15"/>
+    </bean>
+
+    <bean id="Persona2" class="ec.edu.uce.ProyectoBeans.clases.Persona">
+        <property name="id" value="2" />
+        <property name="name" value="María"/>
+        <property name="lastname" value="López"/>
+        <property name="age" value="30"/>
+    </bean>
+
+    <bean id="Persona3" class="ec.edu.uce.ProyectoBeans.clases.Persona">
+        <property name="id" value="3" />
+        <property name="name" value="Juan"/>
+        <property name="lastname" value="García"/>
+        <property name="age" value="25"/>
+    </bean>
+
+    <bean id="Persona4" class="ec.edu.uce.ProyectoBeans.clases.Persona">
+        <property name="id" value="4" />
+        <property name="name" value="Luisa"/>
+        <property name="lastname" value="Maldonado"/>
+        <property name="age" value="25"/>
+    </bean>
+
+    <bean id="Persona5" class="ec.edu.uce.ProyectoBeans.clases.Persona">
+        <property name="id" value="5" />
+        <property name="name" value="Maria"/>
+        <property name="lastname" value="García"/>
+        <property name="age" value="45"/>
+    </bean>
+
+    <bean id="Persona6" class="ec.edu.uce.ProyectoBeans.clases.Persona">
+        <property name="id" value="6" />
+        <property name="name" value="Kevin"/>
+        <property name="lastname" value="Gonzales"/>
+        <property name="age" value="18"/>
+    </bean>
+</beans>
